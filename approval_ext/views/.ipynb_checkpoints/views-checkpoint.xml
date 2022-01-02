@@ -31,5 +31,14 @@
             </xpath>
         </field>
     </record>
+      
+    <record id="approval_sequence" model="ir.sequence">
+        <field name="name">Approval Sequence</field>
+        <field name="code">approval.sequence</field>
+        <field name="active">TRUE</field>
+        <field name="padding">4</field>
+        <field name="number_next">1</field>
+        <field name="number_increment">1</field>
+    </record>
   </data>
 </odoo>
